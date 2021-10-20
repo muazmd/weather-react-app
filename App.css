@@ -1,0 +1,75 @@
+.app{
+  display: grid;
+  place-items: center;
+  
+}
+.warm{
+  background-image: url('https://i.ytimg.com/vi/p6A3SzZ1MhA/maxresdefault.jpg');
+}
+.cold{
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/21054504/Cold-Blue-Winter-River-Wallpaper.jpg');
+}
+.app_body{
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+ 
+}
+
+table{
+  /* background-color: blue; */
+  /* padding: 10px; */
+  margin-top:10px ;
+  height: 70vh;
+  width: 20vw;
+}
+.table_tr{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2px;
+  /* justify-content: space-between; */
+  /* display: inline-grid;
+  grid: 5rem; */
+  border: 3px solid grey;
+  
+  
+}
+
+.map{
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 14px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.cards_weather{
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 15px;
+  height: 20vh;
+  width: 25vw;
+  box-shadow: 1px 7px 10px -3px rgba(2,4,5,0.7);
+
+}
+.cards_temp{
+  /* display: flex; */
+  /* flex-direction: column; */
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 5px;
+  height: 20vh;
+  width: 25vw;
+  box-shadow: 1px 7px 10px -3px rgba(2,4,5,0.7);
+
+}
+
+.txtfld{
+  width: 400px;
+  margin: 10px 5px 5px 5px !important;
+}
