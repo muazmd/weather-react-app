@@ -230,7 +230,7 @@ const Wraper =withScriptjs(withGoogleMap(Map));
         value={query}
         onKeyPress={search}
              id="outlined-textarea"
-             label="Search here by city name"
+             label="Search by city name"
              placeholder=""
              // multiline
              variant="outlined"
